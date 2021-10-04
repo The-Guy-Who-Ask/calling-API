@@ -1,0 +1,34 @@
+*{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.book_block{
+    display: flex;
+}
+.author_name{
+    margin-right: .5em;
+    font-style: italic;
+}
+#search{
+    width: 90%;
+    outline: none;
+    height: 2em;
+    border-radius: 2em;
+    border: none;
+    background-color: rgb(221, 221, 221);
+}
+#search:focus{
+    outline: none;
+}
+#submit_button{
+    background-color: rgb(60, 89, 255);
+    color: white;
+    border: none;
+    width: 8%;
+    height: 2em;
+    border-radius: 1.5em;
+}
