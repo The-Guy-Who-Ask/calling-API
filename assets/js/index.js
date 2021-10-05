@@ -3,14 +3,15 @@ function search(){
     input_data = input_data.value
     console.log(input_data)
 }
+/*
 let input_data = document.getElementById('search');
 if(document.getElementById('search').checked){
 input_data=document.getElementById('search').value
-}
+}*/
 let enter = prompt("enter a book here")
 // var x = document.getElementById("mySearch");
-var defaultVal = input_data.defaultValue;
-var currentVal = input_data.value;
+/*var defaultVal = input_data.defaultValue;
+var currentVal = input_data.value;*/
 input_data = enter
 {
     /* <div class="book_block">
@@ -71,7 +72,7 @@ input_data = enter
        }
     };
     let d = "Javascript"
-    xhttp.open("GET", `https://www.googleapis.com/books/v1/volumes?q=${input_data}&maxResults=20`, true);
+    xhttp.open("GET", `https://www.googleapis.com/books/v1/volumes?q=${enter}&maxResults=20`, true);
     // xhttp.open("GET", "https://www.googleapis.com/books/v1/volumes?q=Rd SHarma&maxResults=20", true);
     // xhttp.open("GET", `https://www.googleapis.com/books/v1/volumes?q=${d}&maxResults=20`, true);
     xhttp.send();
