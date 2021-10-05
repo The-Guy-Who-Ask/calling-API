@@ -7,9 +7,11 @@ let input_data = document.getElementById('search');
 if(document.getElementById('search').checked){
 input_data=document.getElementById('search').value
 }
+let enter = prompt("enter a book here")
 // var x = document.getElementById("mySearch");
 var defaultVal = input_data.defaultValue;
 var currentVal = input_data.value;
+input_data = enter
 {
     /* <div class="book_block">
 <figure>
